@@ -90,6 +90,10 @@ Aqui você vai copiar o valor abaixo e colar no arquivo biome.json do seu projet
         "noEmptyPattern": {
           "level": "warn"
         },
+"noUnusedImports": {
+          "level": "error",
+          "fix": "safe"
+        },
         "noUnusedVariables": {
           "level": "warn",
           "fix": "safe"
