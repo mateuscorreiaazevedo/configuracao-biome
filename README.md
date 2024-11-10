@@ -11,7 +11,7 @@ npm install --save-dev --save-exact @biomejs/biome && npx @biomejs/biome init
 ## Configuração VSCODE
 
 ```
-echo '{
+mkdir .vscode && touch .vscode/settings.json && echo '{
   "window.zoomLevel": 0,
   "editor.inlineSuggest.enabled": true,
   "editor.codeActionsOnSave": {
@@ -33,7 +33,7 @@ echo '{
 
 ## Extensão
 ```
-echo '{
+touch .vscode/extensions.json && echo '{
   "recommendations": [
     "biomejs.biome"
   ]
