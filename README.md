@@ -104,4 +104,11 @@ Aqui você vai copiar o valor abaixo e colar no arquivo biome.json do seu projet
 }
 ```
 
+## Scripts do Biome
+
+```
+"lint": "npx @biomejs/biome lint --write .",
+"format": "npx @biomejs/biome format --write .",
+"lint:fix": "npx @biomejs/biome check --write ."
+```
 
