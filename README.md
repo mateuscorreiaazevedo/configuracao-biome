@@ -19,6 +19,7 @@ echo '{
     "quickfix.biome": "explicit",
     "source.organizeImports.biome": "explicit"
   },
+  "editor.defaultFormatter": "biomejs.biome",
   "search.showLineNumbers": false,
   "workbench.editor.enablePreview": false,
   "workbench.list.openMode": "doubleClick",
