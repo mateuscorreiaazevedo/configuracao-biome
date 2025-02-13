@@ -15,7 +15,7 @@ mkdir .vscode && touch .vscode/settings.json && echo '{
   "window.zoomLevel": 0,
   "editor.inlineSuggest.enabled": true,
   "editor.codeActionsOnSave": {
-    "// source.fixAll.eslint": "explicit",
+    // "source.fixAll.eslint": "explicit",
     "quickfix.biome": "explicit",
     "source.organizeImports.biome": "explicit"
   },
